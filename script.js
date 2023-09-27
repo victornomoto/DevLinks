@@ -7,11 +7,11 @@ function toggleMode() {
 
   //substtituir a imagem
   if (html.classList.contains("ligth")) {
-    img.setAttribute("src", "./assets/avatar12.png")
     // se tiver ligth mode, adicionar imagem ligth
+    img.setAttribute("src", "./assets/avatar-ligth.png")
   } else {
     // set tiver sem ligth mode, manter a imagem normal
-
     img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("alt", "foto do victor nomoto")
   }
 }
