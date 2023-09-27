@@ -12,6 +12,5 @@ function toggleMode() {
   } else {
     // set tiver sem ligth mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "foto do victor nomoto")
   }
 }
