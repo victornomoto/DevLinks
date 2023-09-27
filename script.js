@@ -11,6 +11,7 @@ function toggleMode() {
     // se tiver ligth mode, adicionar imagem ligth
   } else {
     // set tiver sem ligth mode, manter a imagem normal
+
     img.setAttribute("src", "./assets/avatar.png")
   }
 }
